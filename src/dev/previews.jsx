@@ -4,6 +4,7 @@ import {PaletteTree} from './palette'
 import ActionCard from "../ui-components/ActionCard";
 import TallCard from "../ui-components/TallCard";
 import TallCardCollection from "../ui-components/TallCardCollection";
+import MarketingFooter from "../ui-components/MarketingFooter";
 
 const ComponentPreviews = () => {
     return (
@@ -16,6 +17,9 @@ const ComponentPreviews = () => {
             </ComponentPreview>
             <ComponentPreview path="/TallCardCollection">
                 <TallCardCollection/>
+            </ComponentPreview>
+            <ComponentPreview path="/MarketingFooter">
+                <MarketingFooter/>
             </ComponentPreview>
         </Previews>
     )

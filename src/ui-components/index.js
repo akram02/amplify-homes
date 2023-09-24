@@ -38,4 +38,5 @@ export { default as SocialPost } from "./SocialPost";
 export { default as StandardCard } from "./StandardCard";
 export { default as Stat } from "./Stat";
 export { default as TallCard } from "./TallCard";
+export { default as TallCardCollection } from "./TallCardCollection";
 export { default as studioTheme } from "./studioTheme";

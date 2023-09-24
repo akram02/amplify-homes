@@ -19,6 +19,8 @@ export default function TallCard(props) {
       justifyContent="center"
       alignItems="flex-start"
       position="relative"
+      boxShadow="0px 4px 4px rgba(0, 0, 0, 0.25)"
+      borderRadius="10px"
       padding="0px 0px 0px 0px"
       backgroundColor="rgba(255,255,255,1)"
       {...getOverrideProps(overrides, "TallCard")}
@@ -34,6 +36,7 @@ export default function TallCard(props) {
         shrink="0"
         alignSelf="stretch"
         position="relative"
+        borderRadius="5px"
         padding="0px 0px 0px 0px"
         objectFit="cover"
         {...getOverrideProps(overrides, "image")}
